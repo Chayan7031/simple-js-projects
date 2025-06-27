@@ -4,7 +4,7 @@ let box3 = document.getElementById("box3")
 let box4 = document.getElementById("box4")
 let btn = document.getElementById("btn")
 
-box1.addEventListener("click", function(){
+box1.addEventListener("click", function(e){
     document.body.style.backgroundColor = "gray"
 })
 
